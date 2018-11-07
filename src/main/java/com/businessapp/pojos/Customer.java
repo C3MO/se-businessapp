@@ -16,6 +16,14 @@ public class Customer implements EntityIntf  {
 
 	private static IDGen IDG = new IDGen( "C.", IDGen.IDTYPE.AIRLINE, 6 );
 
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public void setNotes(String note){
+		this.notes.add(new LogEntry(note));
+	}
+
 	// Customer states.
 	public enum CustomerStatus { ACTIVE, SUSPENDED, TERMINATED };
 
