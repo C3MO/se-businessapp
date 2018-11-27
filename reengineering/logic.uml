@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.businessapp.logic</OriginalElement>
+  <nodes>
+    <node x="76.0" y="0.0">com.businessapp.logic.CustomerDataIntf</node>
+    <node x="615.0" y="0.0">com.businessapp.logic.CalculatorLogicIntf</node>
+    <node x="26.0" y="786.0">com.businessapp.logic.IDGen.IDTYPE</node>
+    <node x="569.0" y="123.0">com.businessapp.logic.CalculatorLogic</node>
+    <node x="0.0" y="211.0">com.businessapp.logic.CustomerDataMockImpl</node>
+    <node x="0.0" y="573.0">com.businessapp.logic.IDGen</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.businessapp.logic.CalculatorLogic" target="com.businessapp.logic.CalculatorLogicIntf">
+      <point x="0.0" y="-125.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="com.businessapp.logic.IDGen.IDTYPE" target="com.businessapp.logic.IDGen">
+      <point x="0.0" y="-69.5" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="com.businessapp.logic.CustomerDataMockImpl" target="com.businessapp.logic.CustomerDataIntf">
+      <point x="0.0" y="-158.5" />
+      <point x="0.0" y="80.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="409.5" y="91.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

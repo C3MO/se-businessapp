@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.businessapp.fxgui.CalculatorFXMLController</OriginalElement>
+  <nodes>
+    <node x="146.5" y="167.0">com.businessapp.fxgui.FXMLControllerIntf</node>
+    <node x="90.0" y="246.0">com.businessapp.fxgui.CalculatorGUI_Intf</node>
+    <node x="0.0" y="414.0">com.businessapp.fxgui.CalculatorFXMLController</node>
+    <node x="87.0" y="0.0">com.businessapp.ControllerIntf</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.businessapp.fxgui.CalculatorGUI_Intf" target="com.businessapp.fxgui.FXMLControllerIntf">
+      <point x="0.0" y="-59.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.businessapp.fxgui.CalculatorFXMLController" target="com.businessapp.fxgui.CalculatorGUI_Intf">
+      <point x="0.0" y="-158.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="com.businessapp.fxgui.FXMLControllerIntf" target="com.businessapp.ControllerIntf">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="58.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="137.5" y="373.0" />
+  <SelectedNodes>
+    <node>com.businessapp.fxgui.CalculatorFXMLController</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
