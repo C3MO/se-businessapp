@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.businessapp.fxgui</OriginalElement>
+  <nodes>
+    <node x="0.0" y="1643.0">com.businessapp.fxgui.PopupUpdateProperties</node>
+    <node x="0.0" y="1289.0">com.businessapp.fxgui.AppGUIBuilder</node>
+    <node x="685.0833333333335" y="79.0">com.businessapp.fxgui.CustomerFXMLController</node>
+    <node x="933.9999999999999" y="0.0">com.businessapp.fxgui.FXMLControllerIntf</node>
+    <node x="1363.0833333333335" y="277.0">com.businessapp.fxgui.AppFXMLController</node>
+    <node x="441.0" y="1289.0">com.businessapp.fxgui.StringTestUpdateProperty</node>
+    <node x="388.0833333333334" y="299.0">com.businessapp.fxgui.CalculatorGUI_Intf</node>
+    <node x="559.0" y="807.5">com.businessapp.fxgui.CalculatorFXMLController</node>
+    <node x="0.0" y="687.0">com.businessapp.fxgui.CalculatorGUI_Intf.Token</node>
+    <node x="7.5" y="1547.0">com.businessapp.fxgui.AppGUIBuilder.AppGUIBuilderCallbackIntf</node>
+    <node x="969.0" y="1289.0">com.businessapp.fxgui.PopupNotes</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.businessapp.fxgui.CalculatorGUI_Intf" target="com.businessapp.fxgui.FXMLControllerIntf">
+      <point x="0.0" y="-59.0" />
+      <point x="526.5833333333335" y="54.0" />
+      <point x="961.3333333333333" y="54.0" />
+      <point x="-54.66666666666663" y="14.5" />
+    </edge>
+    <edge source="com.businessapp.fxgui.AppGUIBuilder.AppGUIBuilderCallbackIntf" target="com.businessapp.fxgui.AppGUIBuilder">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="104.0" />
+    </edge>
+    <edge source="com.businessapp.fxgui.CalculatorFXMLController" target="com.businessapp.fxgui.CalculatorGUI_Intf">
+      <point x="0.0" y="-158.0" />
+      <point x="787.5" y="662.0" />
+      <point x="595.8333333333335" y="662.0" />
+      <point x="69.25" y="59.0" />
+    </edge>
+    <edge source="com.businessapp.fxgui.CalculatorGUI_Intf.Token" target="com.businessapp.fxgui.CalculatorGUI_Intf">
+      <point x="0.0" y="-278.5" />
+      <point x="269.5" y="662.0" />
+      <point x="457.3333333333334" y="662.0" />
+      <point x="-69.25" y="59.0" />
+    </edge>
+    <edge source="com.businessapp.fxgui.CustomerFXMLController" target="com.businessapp.fxgui.FXMLControllerIntf">
+      <point x="-1.1368683772161603E-13" y="-279.0" />
+      <point x="1014.0833333333333" y="54.0" />
+      <point x="1015.9999999999999" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.businessapp.fxgui.AppFXMLController" target="com.businessapp.fxgui.FXMLControllerIntf">
+      <point x="0.0" y="-81.0" />
+      <point x="1524.5833333333335" y="54.0" />
+      <point x="1070.6666666666665" y="54.0" />
+      <point x="54.66666666666663" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="416.5" y="1565.0" />
+  <SelectedNodes>
+    <node>com.businessapp.fxgui.PopupUpdateProperties</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
