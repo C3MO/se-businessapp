@@ -1,0 +1,84 @@
+
+1.) Use Case  Reservierung
+Name und Identifikationsnummer / Personalien
+
+Beschreibung
+Der Kunde oder Geschäftskunde reserviert ein oder mehrere Wunschgeräte für einem bestimmten Zeitpunkt.
+
+Beteiligte Akteure [actors]
+Kunde [reserviert]
+Mitarbeiter trägt die Daten in die Datenbank ein
+
+Status
+bereit zur Überprüfung
+
+Verwendete Anwendungsfälle [includes]
+---
+
+Auslöser [rationale oder trigger]
+Der Kunde benötigt ein spezielles Gerät.
+
+Vorbedingungen [preconditions]
+Kunde muss zahlungsfähig sein.
+
+Invarianten
+Kunde ist in Datenbank eingetragen. Gerät ist nicht ausgeliehen.
+
+Standardablauf [normaler flow]
+1. Kunde besucht die Website
+2. Kunde findet ein passendes Gerät
+3. Datenbank prüft auf Verfügbarkeit
+4. Gerät wird als verfügbar eingestuft
+5. Kunde reserviert das Gerät
+6. Mitarbeiter aktualisiert den Gerätestatus
+
+Alternative Ablaufschritte [alternativer flow]
+1. Kunde storniert die Reservierung
+
+---->Hinweise<----
+Das Gerät muss verfügbar sein und auf der Website stehen.
+Der Kunde kann Zeit und Dauer der Leihung auswählen.
+
+----------------------------------------------------------------------------------------------------------------
+
+
+2.) Use Case Leihung
+Name und Identifikationsnummer / Personalien
+
+Beschreibung (description)
+Der Kunde oder Geschäftskunde leiht ein oder mehrere Wunschgeräte für eine bestimmte Dauer.
+
+Beteiligte Akteure (actors)
+Kunde (leiht)
+Mitarbeiter (gibt Gerät ab und aktualisiert dessen Status)
+
+Status
+Akzeptiert
+
+Verwendete Anwendungsfälle [includes]
+2.) Use Case Reservierung
+
+Auslöser [rationale oder trigger]
+Der Kunde benötigt ein spezielles Gerät und hat dieses eventuell reserviert.
+
+Vorbedingungen [preconditions]
+Kunde muss zahlungsfähig sein.
+Gerät muss verfügbar sein.
+
+Invarianten
+Kunde ist in Datenbank eingetragen. Gerät ist nicht in Wartung.
+
+Standardablauf [normal flow]
+1. Kunde besucht die Filiale
+2. Kunde holt ein Gerät ab
+3. Datenbank prüft auf Reservierung
+4. Gerät wird als verliehen eingestuft
+5. Kunde leiht das Gerät
+6. Mitarbeiter aktualisiert den Gerätestatus
+
+Alternative Ablaufschritte (alternative flow)
+1. Gerät geht kaputt
+
+---->Hinweise<----
+Das Gerät muss verfügbar sein und auf der Website stehen.
+Der Kunde kann Zeit und Dauer der Leihung auswählen.
