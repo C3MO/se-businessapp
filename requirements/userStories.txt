@@ -1,0 +1,143 @@
+Akteure:
+-	Nicht Bearbeitbarer: natürliche oder juristische Person,
+die aufgrund bei früheren Bestellungen negativ markiert wurde und von zukünftigen Dienstleistungen ausgeschlossen wird.
+
+-	Interessent: natürliche oder juristische Person, die ein eindeutiges Interesse zeigt,
+zukünftig Dienstleistungen in Anspruch zu nehmen.
+
+-	Anonymer/Fremder: natürliche oder juristische Person, die die Website besucht, jedoch kein eindeutiges Interesse zeigt,
+zukünftig unsere Dienstleistung in Anspruch zu nehmen.
+
+-	Zukünftiger Interessent: natürliche oder juristische Person, die zum Teil der Zielgruppe des Unternehmens gilt,
+jedoch kein eindeutiges Interesse zeigt, zukünftig unsere Dienstleistung in Anspruch zu nehmen.
+
+-	Kunde: natürliche Person, die eine Dienstleistung in Anspruch nimmt oder diese Reserviert.
+
+-	Geschäftskunde: juristische Person, die eine Dienstleistung in Anspruch nimmt oder diese Reserviert.
+
+
+
+Interne:
+-	Administrator: natürliche Person oder KI, die Änderungen am System vornehmen darf.
+
+-	CEO: Chef des Unternehmens.
+
+-	Mitarbeiter: natürliche Person, die Bestellungen vermerken und Reservierungen vornehmen darf und Geräte herausgeben darf.
+
+
+User Storys:
+
+US#001.01:Als Zukünftiger Interessent werde ich Werbung erhalten.
+
+US#001.02:Als Zukünftiger Interessent werde ich Werbung erhalten, um eventuell Interessent oder Kunde zu sein.
+
+US#001.03:Als Zukünftiger Interessent werde ich Werbung ablehnen.
+
+US#001.04:Als Zukünftiger Interessent werde ich Werbung ablehnen, um keine Werbung mehr zu erhalten.
+
+
+US#002.01:Als Anonymer werde ich Werbung erhalten.
+
+US#002.02:Als Anonymer werde ich Werbung erhalten, um eventuell Interessent oder Kunde zu sein.
+
+US#002.03:Als Anonymer werde ich mich in einer Filiale informieren.
+
+US#002.04:Als Anonymer werde ich mich in einer Filiale informieren, um über Dienstleistungen Bescheid zu wissen.
+
+US#002.05:Als Anonymer werde ich mich auf der Website informieren.
+
+US#002.06:Als Anonymer werde ich mich auf der Website informieren, um über Dienstleistungen Bescheid zu wissen.
+
+
+
+US#003.01:Als Interessent werde ich Werbung erhalten.
+
+US#003.02:Als Interessent werde ich Werbung erhalten, um eventuell Interessent oder Kunde zu sein.
+
+US#003.03:Als Interessent werde ich mich in einer Filiale informieren.
+
+US#003.04:Als Interessent werde ich mich in einer Filiale informieren, um über Dienstleistungen Bescheid zu wissen.
+
+US#003.05:Als Interessent werde ich mich auf der Website informieren.
+
+US#003.06:Als Interessent werde ich mich auf der Website informieren, um über Dienstleistungen Bescheid zu wissen.
+
+US#003.05:Als Interessent werde ich mich auf der Website eintragen.
+
+US#003.06:Als Interessent werde ich mich auf der Website eintragen, um Kunde zu werden.
+
+
+
+
+
+US#004.01:Als Kunde werde ich eine Reservierung vornehmen.
+
+US#004.02:Als Kunde werde ich eine Reservierung vornehmen, mein Wunschgerät zu erhalten.
+
+US#004.03:Als Kunde werde ich eine Bestellung aufgeben.
+
+US#004.04:Als Kunde werde ich eine Bestellung aufgeben, um ein Gerät zu erhalten.
+
+US#004.05:Als Kunde werde ich meine Leihzeit verlängern.
+
+US#004.06: Als Kunde werde ich meine Leihzeit verlängern, um das ausgeliehene Gerät länger nutzen zu können.
+
+
+US#005.01:Als Geschäftskunde werde ich eine Reservierung vornehmen.
+
+US#005.02:Als Geschäftskunde werde ich eine Reservierung vornehmen, mein Wunschgerät zu erhalten.
+
+US#005.03:Als Geschäftskunde werde ich eine Bestellung aufgeben.
+
+US#005.04:Als Geschäftskunde werde ich eine Bestellung aufgeben, um ein Gerät zu erhalten.
+
+US#005.05:Als Geschäftskunde werde ich meine Leihzeit verlängern.
+
+US#005.06: Als Geschäftskunde werde ich meine Leihzeit verlängern, um das ausgeliehene Gerät länger nutzen zu können.
+
+US#005.07:Als Geschäftskunde werde ich mein Unternehmen anmelden.
+
+US#005.08: Als Geschäftskunde werde ich mein Unternehmen anmelden, um im System als juristische Person behandelt zu werden.
+
+
+
+US#006.01:Als Nicht Bearbeitbarer werde ich mich entschuldigen.
+
+US#006.02: Als Nicht Bearbeitbarer werde ich mich entschuldigen, um eventuell wieder behandelt zu werden.
+
+
+
+US#007.01:Als Administrator werde ich die Website aktualisieren.
+
+US#007.02: Als Administrator werde ich die Website aktualisieren, um die Darstellung meines Unternehmens zu verbessern.
+
+US#007.03:Als Administrator werde ich das System neu starten.
+
+US#007.04: Als Administrator werde ich das System neu starten, um ein Fehler ausschließen zu können.
+
+US#007.05:Als Administrator werde ich Mitarbeiter einarbeiten.
+
+US#007.06: Als Administrator werde ich Mitarbeiter einarbeiten, um dessen Effizienz zu verbessern.
+
+
+US#008.01:Als CEO werde ich Mitarbeiter einstellen.
+
+US#008.02: Als Administrator werde ich Mitarbeiter einstellen, um die Verfügbarkeit der Dienstleistungen zu erhöhen.
+
+US#008.03:Als CEO werde ich Mitarbeiter entlassen.
+
+US#008.04: Als CEO werde ich Mitarbeiter entlassen, um Geld zu sparen.
+
+
+
+US#009.01:Als Mitarbeiter werde ich Reservierungen in die Datenbank schreiben.
+
+US#009.02: Als Mitarbeiter werde ich Reservierungen in die Datenbank schreiben, um Interesse an einem Gerät zu vermerken.
+
+US#009.03:Als Mitarbeiter werde ich eine Leihung veranlassen.
+
+US#009.04: Als Mitarbeiter werde ich eine Leihung veranlassen, damit ein Kunde unsere Dienstleistung in Anspruch nehmen kann.
+
+US#009.05:Als Mitarbeiter werde ich Rechnungen ausstellen.
+
+US#009.06: Als Mitarbeiter werde ich Rechnungen ausstellen, um das Geld vom Kunden zu erbitten.
