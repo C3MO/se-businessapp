@@ -27,8 +27,8 @@ Kunde ist in Datenbank eingetragen. Gerät ist nicht ausgeliehen.
 Standardablauf [normaler flow]
 1. Kunde besucht die Website
 2. Kunde findet ein passendes Gerät
-3. Datenbank prüft auf Verfügbarkeit
-4. Gerät wird als verfügbar eingestuft
+3. in der Datenbank wird prüft auf Verfügbarkeit
+4. Gerät ist verfügbar
 5. Kunde reserviert das Gerät
 6. Mitarbeiter aktualisiert den Gerätestatus
 
@@ -71,9 +71,9 @@ Kunde ist in Datenbank eingetragen. Gerät ist nicht in Wartung.
 Standardablauf [normal flow]
 1. Kunde besucht die Filiale
 2. Kunde holt ein Gerät ab
-3. Datenbank prüft auf Reservierung
+3. wird in der Datenbank geprüft auf Reservierung
 4. Gerät wird als verliehen eingestuft
-5. Kunde leiht das Gerät
+5. Kunde leiht das Gerät aus
 6. Mitarbeiter aktualisiert den Gerätestatus
 
 Alternative Ablaufschritte (alternative flow)
